@@ -1,35 +1,35 @@
-©I¥s·Ó¤ùapi
-post = http://140.120.13.252:4003/eng/up_photo	# ­^¤åªºOCR
-post = http://140.120.13.252:4003/cht/up_photo	# ¤¤¤åªºOCR
+å‘¼å«ç…§ç‰‡api
+post = http://140.120.13.252:4003/eng/up_photo	# è‹±æ–‡çš„OCR
+post = http://140.120.13.252:4003/cht/up_photo	# ä¸­æ–‡çš„OCR
 
-­n¨Ï¥Îocr.spaceªº¸Üprovider­Èµ¹1
+è¦ä½¿ç”¨ocr.spaceçš„è©±providerå€¼çµ¦1
 {
     "photo":"data:image/....",
     "provider" : "1"
 }
-¦^¶Çªºµ²ªG
+å›å‚³çš„çµæœ
 return 
 {
-    "context": "Áú°ê·ì.....",
+    "context": "éŸ“åœ‹ç‘œ.....",
     "result": "1"
 }
 
 OR
 return 
 {
-    "context": "ocr.spaceµ¹ªº¿ù»~°T®§",
+    "context": "ocr.spaceçµ¦çš„éŒ¯èª¤è¨Šæ¯",
     "result": "0"
 }
 
-­n¨Ï¥ÎgoogleªºOCRªº¸Üprovider­Èµ¹°£1¥H¥~ªº­È
+è¦ä½¿ç”¨googleçš„OCRçš„è©±providerå€¼çµ¦é™¤1ä»¥å¤–çš„å€¼
 {
     "photo":"data:image/....",
     "provider" : "0"
 }
-¦^¶Çªºµ²ªG
+å›å‚³çš„çµæœ
 return 
 {
-    "context": "Áú°ê·ì.....",
+    "context": "éŸ“åœ‹ç‘œ.....",
     "result": "1"
 }
 
@@ -42,20 +42,20 @@ return
 
 
 
-©I¥s¤å³¹api
-post = http://140.120.13.252:4003/eng/up_context # ­^¤åªºNER
-post = http://140.120.13.252:4003/cht/up_context # ¤¤¤åªºNER
+å‘¼å«æ–‡ç« api
+post = http://140.120.13.252:4003/eng/up_context # è‹±æ–‡çš„NER
+post = http://140.120.13.252:4003/cht/up_context # ä¸­æ–‡çš„NER
 
-­n¨Ï¥ÎckipªºNERªº¸Üprovider­Èµ¹1
+è¦ä½¿ç”¨ckipçš„NERçš„è©±providerå€¼çµ¦1
 {
-    "context":"°ê¥ÁÄÒÁ`²Î°Ñ¿ï¤HÁú°ê·ì8¤é¤j³y¶Õ\",\"¥D¿ì³æ¦ìºÙ²{³õ´é¤J35¸U¤HÁú°ê·ì",
+    "context":"åœ‹æ°‘é»¨ç¸½çµ±åƒé¸äººéŸ“åœ‹ç‘œ8æ—¥å¤§é€ å‹¢\",\"ä¸»è¾¦å–®ä½ç¨±ç¾å ´æ¹§å…¥35è¬äººéŸ“åœ‹ç‘œ",
     "provider" : "1"
 }
-return json(©I¥sQG api±o¨ìªºjson)
+return json(å‘¼å«QG apiå¾—åˆ°çš„json)
 
-­n¨Ï¥ÎgoogleªºNERªº¸Üprovider­Èµ¹°£1¥H¥~ªº­È
+è¦ä½¿ç”¨googleçš„NERçš„è©±providerå€¼çµ¦é™¤1ä»¥å¤–çš„å€¼
 {
-    "context":"°ê¥ÁÄÒÁ`²Î°Ñ¿ï¤HÁú°ê·ì8¤é¤j³y¶Õ\",\"¥D¿ì³æ¦ìºÙ²{³õ´é¤J35¸U¤HÁú°ê·ì",
-    "provider" : "1"
+    "context":"åœ‹æ°‘é»¨ç¸½çµ±åƒé¸äººéŸ“åœ‹ç‘œ8æ—¥å¤§é€ å‹¢\",\"ä¸»è¾¦å–®ä½ç¨±ç¾å ´æ¹§å…¥35è¬äººéŸ“åœ‹ç‘œ",
+    "provider" : "0"
 }
-return json(©I¥sQG api±o¨ìªºjson)
+return json(å‘¼å«QG apiå¾—åˆ°çš„json)
