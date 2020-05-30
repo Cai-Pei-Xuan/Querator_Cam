@@ -1,6 +1,6 @@
 呼叫照片api
-post = http://140.120.13.252:4003/eng/up_photo	# 英文的OCR
-post = http://140.120.13.252:4003/cht/up_photo	# 中文的OCR
+post = http://XXX:4003/eng/up_photo	# 英文的OCR
+post = http://XXX:4003/cht/up_photo	# 中文的OCR
 
 要使用ocr.space的話provider值給1
 {
@@ -43,8 +43,8 @@ return
 
 
 呼叫文章api
-post = http://140.120.13.252:4003/eng/up_context # 英文的NER
-post = http://140.120.13.252:4003/cht/up_context # 中文的NER
+post = http://XXX:4003/eng/up_context # 英文的NER
+post = http://XXX:4003/cht/up_context # 中文的NER
 
 要使用ckip的NER的話provider值給1
 {
